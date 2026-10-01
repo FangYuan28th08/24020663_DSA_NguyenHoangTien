@@ -1,10 +1,11 @@
 //Chuong trinh nhap 2 so a,b; viet ham rut gon a/b(kieu void).
-//Do phuc tap thuat toan: 0()
-//Do phuc tap bo nho:0()
+
 
 #include <iostream>
 using namespace std;
 
+//Do phuc tap thuat toan: 0()
+//Do phuc tap bo nho:0()
 void rutgon(int &a, int &b){
     int x,y;
     x=a;
@@ -23,6 +24,8 @@ void rutgon(int &a, int &b){
     }
 }
 
+//Do phuc tap thuat toan: 0()
+//Do phuc tap bo nho:0()
 int main(){
     int a,b;
     cout << "Gia tri cua a la: ";
