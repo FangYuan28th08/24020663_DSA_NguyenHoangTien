@@ -5,6 +5,8 @@
 #include <iostream>
 using namespace std;
 
+//Do phuc tap thuat toan: 0(n^2)
+//Do phuc tap bo nho:0(1)
 void sapxep(int n, int a[]){
     int luutru;
     for(int i=0; i<n; i++){
@@ -18,6 +20,8 @@ void sapxep(int n, int a[]){
     }
 }
 
+//Do phuc tap thuat toan: 0(n^2)
+//Do phuc tap bo nho:0(1)
 int main(){
     int n;
     int a[1000];

@@ -1,4 +1,6 @@
 //Nhap vao 1 day gom N phan tu
+//Do phuc tap thuat toan: 0(n)
+//Do phuc tap bo nho:0(1)
 
 #include <iostream>
 using namespace std;

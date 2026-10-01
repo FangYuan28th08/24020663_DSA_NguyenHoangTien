@@ -1,5 +1,6 @@
 //Mang 2 chieu co kich thuoc N*M. 
-
+//Do phuc tap thuat toan: 0(n*m)
+//Do phuc tap bo nho:0(1)
 
 #include <iostream>
 using namespace std;
