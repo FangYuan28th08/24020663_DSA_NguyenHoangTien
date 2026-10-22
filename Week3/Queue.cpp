@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
-struct ListQueue {
+struct Lqueue {
     int arr[1000];
     int headIndex;
     int tailIndex;
-    ListQueue() {
+    Lqueue() {
         headIndex = 0;
         tailIndex = 0;
     }
@@ -57,10 +57,10 @@ Node* xoadau(Node* head){
     delete temp;
     return head;
 }
-struct Queue {
+struct LLqueue {
     Node* head;
     int n;
-    Queue() {
+    LLqueue() {
         head = NULL;
         n = 0;
     }
@@ -87,14 +87,14 @@ struct Queue {
     }
 };
 int main() {
-    ListQueue q1;
+    Lqueue q1;
     q1.enqueue(1);
     q1.enqueue(2);
     q1.enqueue(3);
     cout<<q1.dequeue()<<" ";
     cout<<q1.dequeue()<<" ";
     cout<<q1.dequeue()<<endl;
-    Queue q2;
+    LLqueue q2;
     q2.enqueue(4);
     q2.enqueue(5);
     q2.enqueue(6);
