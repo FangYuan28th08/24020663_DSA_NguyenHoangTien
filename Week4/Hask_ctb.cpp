@@ -26,8 +26,7 @@ int find(int data) {
     int index = hash_func(data);
     Node* fid = hash_table[index]; 
     while(fid != NULL){
-        if(fid->value == data)
-        return 1;
+        if(fid->value == data) return 1;
         fid = fid->next;
     }
     return 0;
