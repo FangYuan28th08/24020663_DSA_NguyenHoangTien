@@ -29,7 +29,7 @@ struct Lqueue {
         return popData;
     }
 };
-//queue bang linklist
+//queue bang linklist 
 struct Node{
     int data;
     Node* next;
